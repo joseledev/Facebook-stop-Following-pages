@@ -1,0 +1,4 @@
+
+// Instagram - Follow all followers in a account follower list.
+
+var unfollowButtons = document.querySelectorAll('.sqdOP.L3NKy.y3zKF '); unfollowed = 0; for(var i=0;i<unfollowButtons.length;i++) { setTimeout(function(element){ element.click(); unfollowed ++; console.log('Total unfollowed ' + unfollowed + ' out of ' + unfollowButtons.length) }, i*2000, unfollowButtons[i]) }
